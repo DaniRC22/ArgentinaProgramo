@@ -36,7 +36,4 @@ export class EditExperienciaComponent implements OnInit {
         alert("Error al modificar experiencia");
         this.router.navigate(['']);
       }
-    )
-  }
-
-}
+    )}}
