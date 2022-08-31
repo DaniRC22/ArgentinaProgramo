@@ -1,4 +1,10 @@
 .row{
-    background-color: #a1b5cb;
     padding: 20px;
+    text-align: center;
+    background-color: rgba(6, 61, 245, 0.644);
+}
+#circulo{
+    display: flex;
+    padding-inline-start: 2em;
+    flex-wrap: wrap;
 }

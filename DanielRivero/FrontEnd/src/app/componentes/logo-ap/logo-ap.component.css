@@ -2,16 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 }
 .redes{
     margin-right: 0.5em;
+    
+    
 }
 #logoAP{
     width: 150px;
 }
 img{
     width: 50px;
+    background-color: black;
 }
 .btn{
     border-width: medium;
+    background-color: black;
 }
