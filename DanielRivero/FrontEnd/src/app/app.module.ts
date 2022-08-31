@@ -25,6 +25,7 @@ import { interceptorProvider } from './service/interceptor-service';
 import { EditEducacionComponent } from './componentes/educacion/editeducacion.component';
 import { NewhysComponent } from './componentes/hys/newhys/newhys.component';
 import { EdithysComponent } from './componentes/hys/edithys/edithys.component';
+import { CreateloginComponent } from './componentes/login/createlogin/createlogin.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { EdithysComponent } from './componentes/hys/edithys/edithys.component';
     EditEducacionComponent,
     NewhysComponent,
     EdithysComponent,
+    CreateloginComponent,
   ],
   imports: [
     BrowserModule,

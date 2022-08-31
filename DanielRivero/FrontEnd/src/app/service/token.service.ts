@@ -42,7 +42,8 @@ export class TokenService {
       JSON.parse(sessionStorage.getItem(AUTHORITIES_KEY)!).forEach((authority:any) => {
         this.roles.push(authority.authority); 
     });     
-  }  return this.roles;
+  }
+    return this.roles;
 }
 
   public logOut(): void{

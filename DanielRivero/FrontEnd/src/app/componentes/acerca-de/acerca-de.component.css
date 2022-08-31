@@ -1,5 +1,6 @@
 .row{
     padding: 20px;
+    background-color: #a1b5cb;
 }
 div{
     background-color: #a1b5cb;
@@ -12,8 +13,8 @@ div{
         width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 550px;
+        left: 2%;
+        top: 600px;
     }
 }
 
