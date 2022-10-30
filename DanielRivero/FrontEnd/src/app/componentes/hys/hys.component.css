@@ -1,10 +1,12 @@
 .row{
     padding: 20px;
     text-align: center;
-    background-color: rgba(6, 61, 245, 0.644);
+    /*background-color: rgba(6, 61, 245, 0.644);*/
+    color: white;
 }
 #circulo{
     display: flex;
     padding-inline-start: 2em;
     flex-wrap: wrap;
+   
 }

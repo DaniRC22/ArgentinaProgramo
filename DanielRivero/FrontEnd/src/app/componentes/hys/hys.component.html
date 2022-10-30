@@ -1,10 +1,11 @@
 <div class="row">
     <h1><b> Hard & Soft skills</b></h1>
-    
       <button type="button" class="btn btn-dark" routerLink="/nuevahys" *ngIf="isLogged">
         Agregar HyS
       </button>
+      <br>
     <div>
+      <br>
       <div>
       <table id="circulo">
         <tr *ngFor="let Hys of hard">
@@ -31,5 +32,5 @@
       ></circle-progress>
         </tr> </table>
       </div>
-      
+    </div>
     

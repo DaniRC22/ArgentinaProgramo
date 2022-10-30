@@ -1,20 +1,32 @@
 .row{
     padding: 20px;
-    background-color: #a1b5cb;
+    text-align: center;
+    text-decoration-style: white ;
+   
 }
 div{
-    background-color: #a1b5cb;
+    /*background-color: #a1b5cb;*/
     text-align: center;
+    color: white;
 }
 /*Estilo de la foto de Perfil*/
 @media (min-width: 576px){
+
+    
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+@media (min-width: 575px){
     #fotodeperfil{
-        position: absolute;
-        width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 2%;
-        top: 600px;
+        left: 33%;
+        top: 950px;
+        color: white;
     }
 }
 
@@ -22,4 +34,5 @@ div{
 #nombre{
     font-weight: bold;
     margin-top:30%;
+    color: white;
 }

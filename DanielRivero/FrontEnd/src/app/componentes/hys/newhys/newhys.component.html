@@ -1,6 +1,7 @@
-<div class="container">
-    <div class="row">
+<div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
         <div>
+            <h1><b>Nueva H&S</b></h1>
             <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
                 <div class="form group">
                     <label for="nombreH">Nombre de la empresa</label>
@@ -10,6 +11,7 @@
                     <label for="porcentaje">Porcentaje </label>
                     <input type="text" class="form-control" id="porcentaje" name="porcentaje" [(ngModel)]="porcentaje" required>
                 </div>
+                <br>
                 <button class="btn btn-dark">
                     Agregar Hard & Soft
                 </button>

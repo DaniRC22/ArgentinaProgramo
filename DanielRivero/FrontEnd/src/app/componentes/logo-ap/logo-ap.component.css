@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+   /* background-color: black;*/
 }
 .redes{
     margin-right: 0.5em;
@@ -14,9 +14,10 @@
 }
 img{
     width: 50px;
-    background-color: black;
+    /*background-color: black;*/
 }
 .btn{
     border-width: medium;
-    background-color: black;
-}
+    /*background-color: black;*/
+}   
+

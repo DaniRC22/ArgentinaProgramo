@@ -1,6 +1,8 @@
-<div class="container">
-    <div class="row">
+<div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
         <div>
+            <h1><b>Nueva experiencia:</b></h1>
+            <br>
             <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
                 <div class="form group">
                     <label for="nombreE">Nombre de la empresa</label>
@@ -10,6 +12,7 @@
                     <label for="descripcionE">Descripcion de la tarea</label>
                     <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="descripcionE" required>
                 </div>
+                <br>
                 <button class="btn btn-dark">
                     Agregar experiencia
                 </button>

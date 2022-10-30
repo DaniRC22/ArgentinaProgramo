@@ -1,6 +1,8 @@
-<div class="container" *ngIf="hardysoft">
-    <div class="row">
+    <div class="container py-5 h-100" *ngIf="hardysoft">
+    <div class="row d-flex justify-content-center align-items-center h-100">
         <div>
+            <h1><b>Editar H&S:</b></h1>
+            <br>
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                 <div class="form group">
                     <label for="nombreH">Nombre de la Institucion</label>
@@ -10,6 +12,7 @@
                     <label for="descripcionE">Descripcion de la tarea</label>
                     <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="hardysoft.porcentaje" required>
                 </div>
+                <br>
                 <button class="btn btn-dark">
                     Actualizar
                 </button>
